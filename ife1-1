@@ -1,0 +1,83 @@
+body{
+    width: 60%;
+    height: auto;
+    background-color: lightgray;
+}
+.header{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    background-color:darkgrey;
+    height: 100px;
+}
+.header-logo{
+    width: 100px;
+    height: auto;
+    float: left;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.header-nav{
+    margin-top: 40px;
+    padding-left:10px ;padding-right: 10px;
+    position: relative;
+    float: right;
+    text-underline: none;
+}
+.header-nav>a{
+    text-decoration: none;
+}
+.content01,.content02,.content03,.content04,.content05,.content06{
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+    margin-left: 20px;margin-top: 20px;margin-right: 20px;margin-bottom: 0px;
+    line-height: 26px;
+    font-family: "Microsoft YaHei UI";
+    font-size: medium;
+}
+table{
+    width: 80%;
+    height: auto;
+    margin-left: 30px;
+}
+.content04-table-01{
+    text-align: left;
+    color: white;
+    background-color: black;
+    border: 1px solid gainsboro;
+}
+.content04-table-02{
+    text-align: left;
+    border: 1px solid gainsboro;
+}
+.content04-table-03{
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+}
+.content05>form>div>label{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.content05>form>span{
+    width: 50%;
+    margin-left: 430px;
+    font-size: small;
+}
+.content05>form>div>textarea{
+    width: 300px;
+    height: 50px;
+}
+.content05-submit{
+    width: 80%;
+    background-color: #1111AA;
+    color: white;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+}
